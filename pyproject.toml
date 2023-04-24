@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "gw-plot-app"
+name = "gw-visualize-app"
 version = "0.1.0"
 description = ""
 authors = ["seiya8 <seiya.sasa8@gmail.com>"]
 readme = "README.md"
-packages = [{include = "gw_plot_app"}]
+packages = [{include = "gw-visualize-app"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
