@@ -96,7 +96,7 @@ app.layout = html.Div(
                     className='two columns',
                     children=[
                         dcc.Markdown("""
-                            **Spin1 magnitude**
+                            **Spin2 magnitude**
                         """),
                         dcc.Slider(
                             id='spin2m',
@@ -104,7 +104,7 @@ app.layout = html.Div(
                             tooltip={'placement': 'bottom', 'always_visible': True}
                         ),
                         dcc.Markdown("""
-                            **Spin1 azimuthal angle**
+                            **Spin2 azimuthal angle**
                         """),
                         dcc.Slider(
                             id='spin2az',
@@ -112,7 +112,7 @@ app.layout = html.Div(
                             tooltip={'placement': 'bottom', 'always_visible': True}
                         ),
                         dcc.Markdown("""
-                            **Spin1 polar angle**
+                            **Spin2 polar angle**
                         """),
                         dcc.Slider(
                             id='spin2po',
