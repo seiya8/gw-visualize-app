@@ -6,9 +6,7 @@ from dash import Dash, dcc, html, Input, Output
 import dash_auth
 from callbacks import *
 import dash_bootstrap_components as dbc
-import pandas
 import numpy as np
-import plotly.express as px
 import plotly.graph_objs as go
 
 external_stylesheets = [dbc.themes.BOOTSTRAP, 'https://codepen.io/chriddyp/pen/bWLwgP.css']
